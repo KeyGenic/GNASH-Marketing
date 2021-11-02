@@ -243,6 +243,8 @@ html,body{
 }
 
 /* Latest Projects */
+
+
 .projects h1{
     font-weight: bold;
     margin: 0 10px;
@@ -254,30 +256,27 @@ html,body{
     color: #E6EDF3;
     font-size: 350%;
     float: right;
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
-.content-container{
-    text-align: center;
-}
 
 .content-container .content img{
-    width: 80%;
+    width: 75vw;
 }
 
 .content{
-    cursor: pointer;
+    flex-wrap: wrap;
+    display: flex;
+    width:50%;
+    padding-left: 50px;
 }
 
 .content-container .content h6{
-    font-size: 100%;
-    text-align: left;
-    padding-left: 50px;
+    font-size: 80%;
+    margin-top: 10px;
 }
 
 .content-container .content p{
-    text-align: left;
-    padding-left: 50px;
     color:#73798E ;
 }
 
@@ -377,4 +376,178 @@ html,body{
     -moz-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     -o-transform: translateY(-100%);
+}
+
+/* email inquiry */
+.email-inquiry{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.email-inquiry h2{
+    font-weight: bold;
+}
+
+#form input{
+    width: 90%;
+    padding: 5px;
+    font-size: 75%;
+    height: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#form button{
+    width: 90%;
+    margin-top: 10px;
+    background-color: #FF2E63 ;
+    color: #FFF;
+}
+
+#form button:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #FF2E63 ;
+}
+
+/* footer */
+
+footer{
+    margin: 75px 0;
+}
+
+.footer-layout{
+    padding: 15px;
+}
+
+.footer-layout .about-footer h4{
+    font-weight:400;
+    letter-spacing: 8px;
+    font-size: 90%;
+}
+
+.footer-layout .about-footer p{
+    font-size: 70%;
+    color: #73798E ;
+    margin: 30px 0;
+}
+
+.footer-layout .contact-footer h4{
+    font-weight:400;
+    letter-spacing: 8px;
+    font-size: 90%;
+}
+
+.contacts{
+    font-size: 70%;
+    color: #73798E ;
+    margin: 30px 0;
+}
+
+.contacts p:nth-child(2){
+    margin: -10px 0;
+}
+
+/* social medias */
+.social-medias{
+    margin-top: 40px;
+}
+
+.social-medias i{
+    font-size: 90%;
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.social-medias i:hover{
+    background-color:#FF2E63 ;
+}
+
+/* copyright */
+.copyright{
+    padding: 15px ;
+    margin: 40px 10px;
+    border-top:1px solid #000 ;
+}
+
+.copyright p{
+    color:#73798E ;
+    font-size: 80%;;
+}
+
+.terms-and-conditions{
+    display: flex;
+}
+
+.terms-and-conditions p:nth-child(2){
+    margin-left: 40px;
+}
+
+
+/* tablets */
+@media  screen and (min-width:750px) {
+    .hero-section h1{
+        font-size: 400%;
+    }
+    .hero-section h6{
+        font-size: 100%;
+    }
+    .trusted-companies {
+       display: inline-block;
+    }
+    .trusted-companies img{
+        margin-right: 20px;
+    }
+    .stock-image{
+        position: absolute;
+        right: 0;
+        top: 15%;
+    }
+    .stock-image img{
+        padding: 50px;
+        width: 375px;
+    }
+
+    .experience-container{
+        margin-top: 150px;
+    }
+
+    .experience{
+        left: 20%;
+    }
+    .experience h1{
+        font-size: 950%;
+    }
+    .services{
+       position: absolute;
+       left: 100%;
+       top: 50%;
+       transform: translate(-100%,3%);
+       -webkit-transform: translate(-100%,30%);
+       -moz-transform: translate(-100%,30%);
+       -ms-transform: translate(-100%,30%);
+       -o-transform: translate(-100%,30%);
+}
+    .services h3{
+        font-size: 130%;
+    }
+
+    .content{
+        ma
+    }
+    .content img{
+        width: 400px !important;
+    }
 }
