@@ -8,6 +8,7 @@ html,body{
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     color: #000;
+    overflow-x: hidden;
 }
 
 /* LOGO */
@@ -358,7 +359,11 @@ html,body{
     font-weight: bold;
     font-size: 330%;
     color: #E6EDF3;
-    margin-left: 200px;
+    transform: translateX(15%);
+    -webkit-transform: translateX(15%);
+    -moz-transform: translateX(15%);
+    -ms-transform: translateX(15%);
+    -o-transform: translateX(15%);
 }
 
 .testimonials-container{
@@ -512,6 +517,9 @@ footer{
     .trusted-companies img{
         width: 75%;
     }
+    .testimonial-section h1:nth-child(2){
+        font-size: 250%;
+    }
 }
 
 
@@ -610,9 +618,9 @@ footer{
 
     .testimonial-section h1:nth-child(2){
         font-weight: bold;
-        font-size: 900%;
+        font-size: 800%;
         color: #E6EDF3;
-        margin-left: auto;
+       
     }
 
     .testimonials p{
@@ -783,7 +791,7 @@ footer{
     margin: 150px 0;
 }
 .testimonial-section h1:nth-child(2){
-    font-size: 1500% !important;
+    font-size: 1000% !important;
 }
 .email-inquiry h2{
     font-size: 500%;
